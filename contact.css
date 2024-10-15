@@ -1,0 +1,196 @@
+
+body {
+    background-color:#F06460;
+}
+.soos li {
+    display: inline-flex;
+    font-family: 'Tilt Neon';
+   
+}
+
+.soos {
+    text-align: center;
+    font-size: 30px;
+    position: sticky;
+    justify-content: center;
+    z-index: 10;
+    background-color: #F06460;
+    width: 100%;
+    height: 90px;
+    top: 0;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    flex: 1;
+    padding: 2rem;
+}
+
+ .soos a:hover {
+    transition-duration: 0.3s;
+    text-shadow: 0px 9px 7px black;
+}
+
+
+
+.sassy {
+    text-align: left;
+    height: 0px;
+    margin: auto;
+}
+
+/* Contact From CSS */
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 40px;
+    border-radius: 5%;
+    background-color: rgb(255, 239, 239);
+}
+
+.name {
+    font-family: 'Tilt Neon';
+    font-size: 30px;
+    color: black;;
+    
+}
+
+input {
+    height: 30px;
+    width: 500px;
+    margin: 20px;
+    font-size: 30px;
+    font-family: 'Tilt Neon';
+}
+
+.email {
+    font-family: 'Tilt Neon';
+    font-size: 30px;
+    color: black;
+    height: 30px;
+    width: 500px;
+    margin: 20px;
+}
+
+.reason {
+    font-family: 'Tilt Neon';
+    font-size: 30px;
+    color: black;
+    height: 30px;
+    width: 600px;
+    margin: 20px;
+}
+
+.reason0 {
+    width: 500px;
+}
+
+.textarea {
+    font-family: 'Tilt Neon';
+    font-size: 30px;
+    color: black;
+    height: 30px;
+    width: 600px;
+    margin: 20px;
+}
+
+.text0 {
+    font-size: 20px;
+    font-family: 'Tilt Neon';
+}
+
+.submit, .reset {
+    height: 50px;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+.reset:hover {
+    cursor: pointer;
+}
+
+.top-top {
+    font-family: 'Tilt Neon';
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    text-shadow: 0px 9px 7px black;
+}
+
+/* For the bottom section */
+
+.bottom-section {
+    position: absolute;
+    left: 0;
+    bottom: 3;
+
+    height: 230px;
+    width: 100%;
+    background-color: rgb(59, 20, 20);
+ 
+ 
+}
+
+.gridbox2 {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    font-family: 'Tilt Neon';
+    font-size: 30px;
+    margin: auto;
+    justify-content: center;
+  margin-right: 90px;
+    margin-top: 40px;
+}
+
+.gridbox2 > .bottom-column1 {
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-right: 50px;
+   
+  }
+
+
+
+.gridbox2 a:hover {
+    transition-duration: 0.3s;
+   text-decoration: underline;
+}
+
+.gridbox2 a {
+    color: #ffdb9d;
+    padding-top: 5px;
+    font-family: 'Tilt Neon';
+    font-size: 20px;
+
+    margin: auto;
+   
+}
+
+.bottomside {
+    border-right: 3px solid #F06460;
+    width: 300px;
+    margin-right: 90px;
+    margin: auto;
+}
+
+.copyright {
+    font-family: 'Tilt Neon';
+    font-size: 30px;
+    color: #ffdb9d;
+    text-align: right;
+    
+    margin: auto; 
+    margin-left: 40px;
+}
+
+.bottom-column2 {
+    width: 300px;
+}

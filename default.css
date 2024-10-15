@@ -1,0 +1,72 @@
+body {
+    background-color: #F06460;
+}
+
+.title1 {
+    font-size: 50px;
+    font-family: 'Tilt Neon';
+    color: white;
+    text-shadow: 0px 9px 7px rgb(28, 20, 20);
+    text-align: center;
+}
+
+.center-img {
+display: flex;
+justify-content: center;
+ align-items: center;
+
+}
+
+img {
+     width: 700px;
+     height: 600px;
+ 
+}
+   
+
+.desc {
+    z-index: 10;
+    margin-top: -90px;
+    position: relative;
+   }
+
+
+   .go-back {
+    font-family: 'Tilt Neon';
+    font-size: 30px;
+    color: white;
+text-align: center;
+
+   }
+
+   .title2 {
+    font-size: 50px;
+    font-family: 'Tilt Neon';
+    color: white;
+    text-shadow: 0px 9px 7px rgb(28, 20, 20);
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: -20px;
+    
+}
+
+.middle {
+    display: flex;
+  
+   align-items: center;
+   justify-content: center;
+}
+
+li {
+    font-family: 'Tilt Neon';
+    font-size: 30px;
+    margin: 40px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<!-- model.html: Similar to the main webpage except this one has some changes.-->
+<head>
+
+
+    <title>3D Model</title>
+    <link href="model.css" rel="stylesheet" type="text/css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Tilt+Neon&display=swap" rel="stylesheet">
+
+<!-- Search Nar link rel-->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+
+<body>
+
+ <!-- This line of code is for the main icon of the website-->
+ <h1 class="main-title">hoshiro 3D</h1>
+
+ <!-- Here you have the navigation list placed at the top, with a position of sticky in CSS-->
+ <nav class="soos" >
+    <aside class="sassy">
+    <li><a href="hoshiro3D.html">Main Page</a></li>
+    </aside>
+     <li><a href="model.html"><u><span class="active">3D Model</span></u></a></li>
+     <li><a href="default.html">3D Print</a></li>
+     <li><a href="default.html">3D Scene</a></li>
+     
+   <li><a href="extra.html">Extras</a></li>
+   <li>
+
+    <!-- Search Bar -->
+
+<div class="search">
+    <span class="material-symbols-outlined">
+        search
+    </span>
+<input class="search-input" type="search" placeholder="Search">
+</div>
+
+
+
+
+   </li>
+</nav>
+<br>
+ 
+<div class="center-of-all">
+
+    <h2>(The payment form down below is only a design, meaning it won't actually charge you anything. This is only for a portfolio.)</h2>
+</div>
+
+<div class="middle-box">
+
+    <div class="gridbox">
+
+<aside class="sliderside">
+
+<h1 class="column1-head">
+    How it's done:
+</h1>
+
+<p class="process-desc">In the image slider down below, click the arrows to view each step in the process of how I create these 3D models.</p>
+
+
+
+
+        <div class="slider">
+            <div class="slides">
+    <img src="step1.jpg" class="slide" alt="step1">
+    <img src="step2.jpg" class="slide" alt="step2">
+    <img src="step3.jpg" class="slide" alt="step3">
+    <img src="step4.jpg" class="slide" alt="step4">
+    <img src="img1.jpg" class="slide" alt="image1">
+            </div>
+                <button class="prev" onclick="prevSlide()"><</button>
+                <button class="next" onclick="nextSlide()">></button>
+    
+          </div>
+          <br>
+
+          <h2 class="toot">Steps in Number Order explained.</h2>
+          <ol class="steps-explained">
+                <li>The first step is me modeling your character. This is a long process and it takes a lot of time to get each angle and part correctly. <br>
+                <b>WIPs (Work in Progress) are available</b></li>
+                <br>
+                <li>The second step is when I bring your model to another software that decides the scale of your model that will be printed. After that, the 3D model will print. This can sometimes take more than one day.</li>
+                <br>
+                <li>The third step is when I take off all the supports that hold the model together. After that, the model will need a primer spray applied. The primer spray is required if you want paint to stay on the model. The primer spray must dry.</li>
+                <br>
+                <li>The final step begins after the primer is dried. Then I begin painting. After the paint, a clear coat primer is applied to keep the paint in place.</li>
+
+          </ol>
+          <br>
+          <hr  class="hr-steps">
+</aside>
+
+<!-- Payment form element on the second column inside the gridbox container-->
+ 
+<div class="column2">
+    <form action="">
+
+    
+    
+
+        <div class="fill-out">
+            <h1 class="comfortable">Comfortable and want to start?</h1>
+            <br>
+            <h2 class="fill"><u>Show me your character!</u></h2>
+
+            <div class="inputbaby-top">
+                <span class="input-text">Full Name: </span><input type="text" placeholder="Kenny Yu" required >
+             </div>
+             <div class="inputbaby-top">
+                <span class="input-text">Email: </span><input type="email" placeholder="kennythemaster@example.com" required >
+             </div>
+             <div class="inputbaby-top">
+                    <label for="area">Describe your character's pose, expression and body language: </label>
+                    <br>
+                    <textarea id="area" name="text-area" rows="8" cols="50"></textarea>
+                    
+             </div> 
+             <br>
+             
+<hr>
+        </div>
+
+
+
+<br>
+
+     <div class="pay-grid">
+ 
+         <div>
+             <h3 class="pay">Billing Address</h3>
+
+             
+             <div class="inputbaby-bottom">
+                <span class="input-text">Address:</span><input type="text" placeholder="room - street name - locality" required >
+             </div>
+
+             <div class="inputbaby-bottom">
+                    <span class="input-text">City/State:</span><input type="text" placeholder="San Francisco, California" required >
+
+             </div>
+
+             <div class="inputbaby-bottom">
+
+                <span class="input-text">ZIP Code:</span><input type="number" placeholder="00000" pattern="[0-9]{5}" required >
+
+                
+             </div>
+             
+         </div>
+
+     </div>
+     <br>
+
+     <!-- PAYMENT area of the form element-->
+<div class="pay-grid">
+     <h3 class="pay2">Payment</h3>
+<br>
+<div class="inputbaby-bottom">
+    <span class="input-text">Name on Card:</span><input type="text" placeholder="Kenny Yu" required >
+</div>
+<br>
+<div class="inputbaby-bottom">
+    <span class="input-text">Credit Card Number:</span><input type="number" placeholder="1111 - 2222 - 3333 - 4444" pattern="[0-9]{16}"required>
+</div>
+<br>
+<div class="inputbaby-bottom">
+    <label for="months">Exp. Month</label>
+    <input type="text" list="12months" id="months" name="months">
+    <datalist id="12months">
+        <option value="January"></option>
+        <option value="February"></option>
+        <option value="March"></option>
+        <option value="April"></option>
+        <option value="May"></option>
+        <option value="June"></option>
+        <option value="July"></option>
+        <option value="August"></option>
+        <option value="September"></option>
+        <option value="October"></option>
+        <option value="November"></option>
+        <option value="December"></option>
+    </datalist>
+<br>
+<div class="inputbaby-bottom-CVV">
+    <span class="input-text">Exp Year</span><input type="number" placeholder="2024" pattern="[0-9]{4}"required>
+</div>
+    <br>
+    <div class="inputbaby-bottom-CVV">
+        <span class="input-text">CVV</span><input type="number" placeholder="111" pattern="[0-9]{3}" required>
+    </div>
+</div>
+
+
+</div>
+<br>
+
+
+    
+</div>
+<div class="checkboxes">
+    <input id="bro1" name="number1" type="checkbox" required>
+    
+    <label for="bro1" class="sassify">By clicking this checkbox, I have viewed the process, read the steps and I understand the policies explained to me.<br>(For more information on the policies, go to<a href="terms.html" class="termslink01">Terms and Conditions</a>)</label>
+
+    <br>
+    <br>
+    <br>
+
+    <input id="bro2" name="number2" type="checkbox" required>
+    
+    <label for="bro2" class="sassify">By clicking this checkbox, I understand that this is all a test and I will not be charged accordingly.</label>
+
+    <br>
+
+    <input type="submit" value="Proceed to Checkout" class="submit-button">
+
+    </form>
+ </div>
+</div>
+</div>
+<br>
+
+
+
+
+
+
+
+<div class="bottom-section">
+
+    <div class="gridbox2">
+    
+        <aside class="bottomside">
+    <div class="bottom-column1"></div>
+    
+    <a href="about.html">About Me</a>
+    <br>
+    <a href="contact.html">Contact</a>
+    <br>
+    
+    <a href="default.html">Questions?</a>
+    <br>
+    <a href="default.html">Terms and Conditions</a>
+    </aside>
+    
+    <div class="bottom-column2">
+    
+    <br>
+        <p class="copyright"><span>&copy;</span> Kenny Yu</p>
+    </div>
+    
+            </div>
+</div>
+
+<!-- script src for JavScript file-->
+<script src="hoshiro.js"></script>
+
+
+</body>
+
+
+
+</html>
