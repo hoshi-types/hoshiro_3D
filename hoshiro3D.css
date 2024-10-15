@@ -1,0 +1,273 @@
+body {
+    background-color: #F06460;
+    
+    
+}
+
+.main-title {
+    color: white;
+    font-family:'Tilt Neon';
+    font-size: 60px;
+    text-shadow: 0px 9px 7px rgb(28, 20, 20);
+    
+}
+
+.soos li {
+    display: inline-flex;
+    font-family: 'Tilt Neon';
+   
+}
+
+.soos {
+    text-align: center;
+    font-size: 30px;
+    position: sticky;
+    justify-content: center;
+    z-index: 10;
+    background-color: #F06460;
+    width: 100%;
+    height: 90px;
+    top: 0;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    flex: 1;
+    padding: 2rem;
+}
+
+ .soos a:hover {
+    transition-duration: 0.3s;
+    text-shadow: 0px 9px 7px black;
+}
+
+.slider {
+    display: flex;
+    position: sticky;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    justify-content: center;
+   align-items: center;
+   right: 4%;
+   
+} 
+
+.slider img {
+    border: 10px dashed white;
+    display: none;
+}
+
+img.displaySlide {
+    display: block;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+    border-radius: 10%;
+}
+
+.slider button {
+    z-index: 5;
+    
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: black;
+    opacity: 50%;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.prev {
+    left: -480px;
+    position: relative;
+    
+}
+
+.next {
+    right: 5%;
+    position: relative;
+    
+}
+
+.middle-box {
+    background-color: white;
+    width: 1200px;
+    height: 900px;
+    border-radius: 10%;
+    position: static;
+    justify-content: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: 10px dashed #F06460;
+}
+
+.bottom-section {
+    position: absolute;
+    left: 0;
+    bottom: 3;
+
+    height: 230px;
+    width: 100%;
+    background-color: rgb(59, 20, 20);
+ 
+ 
+}
+
+
+.gridbox {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.gridbox > div {
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    
+  }
+
+  .middle-sec {
+    border-left: 3px solid #999;
+    margin: auto;
+    padding: 20px;
+    margin-left: 20px;
+    
+  }
+  
+ .column1 {
+    display: inline;
+    font-family: "Tilt Neon";
+
+ }
+
+ .mega {
+    font-size: 40px;
+ }
+
+ .red-text {
+    color: #F06460;
+ }
+
+p {
+    font-size: 16px;
+ }
+
+ .column2 {
+    display: inline;
+   
+ }
+
+ .emoji1 {
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    margin: auto;
+    margin-left: 60px;
+ }
+
+ .function-section {
+            font-size: 30px; 
+            margin: auto;
+            margin-top: 60px;
+            text-decoration: underline;
+
+ }
+
+ .function-list li {
+    padding-top: 30px;
+    margin: auto; 
+    margin-top: 10px;
+    
+ }
+
+ .gridbox2 {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    font-family: 'Tilt Neon';
+    font-size: 30px;
+    margin: auto;
+    justify-content: center;
+  margin-right: 90px;
+    margin-top: 40px;
+}
+
+.gridbox2 > .bottom-column1 {
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-right: 50px;
+   
+  }
+
+
+
+.gridbox2 a:hover {
+    transition-duration: 0.3s;
+   text-decoration: underline;
+}
+
+.gridbox2 a {
+    color: #ffdb9d;
+    padding-top: 5px;
+    font-family: 'Tilt Neon';
+    font-size: 20px;
+
+    margin: auto;
+   
+}
+
+.bottomside {
+    border-right: 3px solid #F06460;
+    width: 300px;
+    margin-right: 90px;
+    margin: auto;
+}
+
+.copyright {
+    font-family: 'Tilt Neon';
+    font-size: 30px;
+    color: #ffdb9d;
+    text-align: right;
+    
+    margin: auto; 
+    margin-left: 40px;
+}
+
+.bottom-column2 {
+    width: 300px;
+}
+
+/* Search bar CSS */
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    margin-right: 10px;
+  }
+  
+  
+  .search {
+      width: max-content;
+      display: flex;
+      align-items: center;
+      padding: 30px;
+      border-radius: 28px;
+  }
+  
+  .search-input {
+    width: 400px;
+    height: 40px;
+}
